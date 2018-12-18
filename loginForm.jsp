@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+﻿<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
 <!----------------------------------------------------------------------->
 <!-- JSP 기술의 한 종류인 [Include Directive]를 이용하여 common.jsp 파일 내의 소스를 삽입하기 -->
@@ -150,7 +150,7 @@
 					}
 					// 서버의 응답을 못 받았을 경우 실행할 익명함수 설정
 					, error : function(){
-						alert("서버 접속 실패!");
+						alert("서버 접속 실패입니다");
 					}
 				});
 			}
